@@ -7,21 +7,23 @@ import Header from './pages/header';
 import Footer from './pages/footer';
 import Navbar from './Componenets/Navbar';
 
+function MainPage() {
+    return (
+        <>
+            <Header />
+            <Home />
+            <Footer />
+        </>
+    );
+}
 
 function App() {
     return (
-        <Router>
             <div>
                 <Navbar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/header" element={<Header />} />
-                    <Route path="/footer" element={<Footer />} />
-                </Routes>
+                <MainPage/>
+                
             </div>
-        </Router>
     );
 }
 
