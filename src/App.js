@@ -3,14 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Header from './pages/header';
 import Footer from './pages/footer';
 import Navbar from './Componenets/Navbar';
 
 function MainPage() {
     return (
         <>
-            <Header />
             <Home />
             <Footer />
         </>
@@ -19,11 +17,16 @@ function MainPage() {
 
 function App() {
     return (
-            <div>
-                <Navbar />
-                <MainPage/>
-                
-            </div>
+        <Router>
+        <div>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<MainPage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </div>
+    </Router>
     );
 }
 
