@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/header.css';
+import matsoc from '../Assets/matsoc_iitk_logo.jpeg';
 
 const Navbar = () => {
   return (
     <header className="header">
-      <div className="logo">MATSOC</div>
+      <div className="logo">
+      <img src={matsoc} alt="MATSOC" width="100" height="50"/>
+      </div>
       <nav className="navbar">
         <ul>
           <li>

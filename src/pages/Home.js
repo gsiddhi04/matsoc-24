@@ -5,11 +5,11 @@ const Home = () => {
   // return <h1>Welcome to the Home Page</h1>;
   return (
     <main className="main-content">
-      <section className="hero-section">
+      <div className="hero-section">
         <h1>Welcome to MATSOC</h1>
         <p>MATSOC - The Materials Society</p>
         <button className="cta-button">Know More!</button>
-      </section>
+      </div>
       
       <section id="about" className="about-section">
         <h2>MATSOC</h2>
