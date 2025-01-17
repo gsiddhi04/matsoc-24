@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+.origin {
+  box-sizing: border-box;
+  color: rgb(0, 40, 0);
+  color-scheme: light;
+  display: block;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 54px;
+  font-variation-settings: normal;
+  font-weight: 500;
+  height: 48.6px;
+  line-height: 62.6px;
+  margin-block-end: 8px;
+  margin-block-start: 0px;
+  margin-bottom: 8px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 510px;
+  margin-right: 0px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  scroll-behavior: smooth;
+  text-align: center;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 664px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.para {
+  box-sizing: border-box;
+  color: rgb(0, 20, 0);
+  color-scheme: light;
+  display: block;
+  font-family: "Mukta", sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 19px;
+  font-variation-settings: normal;
+  font-weight: 400;
+  height: 144px;
+  line-height: 24px;
+  margin-block-end: 16px;
+  margin-block-start: 0px;
+  margin-bottom: 16px;
+  margin-left: 310px;
+  margin-right: 0px;
+  margin-top: 105px;
+  scroll-behavior: smooth;
+  text-align: start;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 1020px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.vision {
+  box-sizing: border-box;
+  color: rgb(0, 40, 0);
+  /* rgb(189, 159, 103); */
+  color-scheme: light;
+  display: block;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 54px;
+  font-variation-settings: normal;
+  font-weight: 500;
+  height: 48.6px;
+  line-height: 62.6px;
+  margin-block-end: 8px;
+  margin-block-start: 0px;
+  margin-bottom: 8px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 510px;
+  margin-right: 0px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  scroll-behavior: smooth;
+  text-align: center;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 664px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.para-2 {
+  box-sizing: border-box;
+  color: rgb(0, 30, 0);
+  color-scheme: light;
+  display: block;
+  /* font-family: Poppins, sans-serif; */
+  font-family: "Mukta", sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 19px;
+  font-variation-settings: normal;
+  font-weight: 450;
+  height: 144px;
+  line-height: 24px;
+  margin-block-end: 16px;
+  margin-block-start: 0px;
+  margin-bottom: 16px;
+  margin-left: 310px;
+  margin-right: 0px;
+  margin-top: 105px;
+  scroll-behavior: smooth;
+  text-align: start;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 1020px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.mission {
+  box-sizing: border-box;
+  color: rgb(0, 40, 0);
+  color-scheme: light;
+  display: block;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 54px;
+  font-variation-settings: normal;
+  font-weight: 500;
+  height: 48.6px;
+  line-height: 62.6px;
+  margin-block-end: 8px;
+  margin-block-start: 0px;
+  margin-bottom: 8px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 510px;
+  margin-right: 0px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  scroll-behavior: smooth;
+  text-align: center;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 664px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.para-3 {
+  box-sizing: border-box;
+  color: rgb(0, 30, 0);
+  color-scheme: light;
+  display: block;
+  /* font-family: Poppins, sans-serif; */
+  font-family: "Mukta", sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-size: 19px;
+  font-variation-settings: normal;
+  font-weight: 520;
+  height: 144px;
+  line-height: 24px;
+  margin-block-end: 16px;
+  margin-block-start: 0px;
+  margin-bottom: 16px;
+  margin-left: 310px;
+  margin-right: 0px;
+  margin-top: 105px;
+  scroll-behavior: smooth;
+  text-align: start;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 1020px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+

@@ -5,6 +5,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Footer from './pages/footer';
 import Navbar from './Componenets/Navbar';
+import Gallery from './pages/gallery';
 
 function MainPage() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
         </div>
