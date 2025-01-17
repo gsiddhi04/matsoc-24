@@ -1,0 +1,32 @@
+.footer {
+  background-color: #002349;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.icon-container {
+  margin-bottom: 10px;
+}
+
+
+.icon-link {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #E1306C; 
+}
+
+.icon-link.linkedin:hover {
+  color: #0077B5;
+}
+
+.footer-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
