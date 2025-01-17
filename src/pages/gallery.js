@@ -1,6 +1,14 @@
 import React from "react";
 import "../styles/gallery.css";
 
+import pic1 from '../Assets/pic1.jpg';
+import pic2 from '../Assets/pic2.jpg';
+import pic3 from '../Assets/pic3.jpg';
+import pic4 from '../Assets/pic4.jpg';
+import pic5 from '../Assets/pic5.jpg';
+import pic6 from '../Assets/pic6.jpg';
+import pic7 from '../Assets/pic7.jpg';
+
 const Gallery = () => {
   return (
     <div className="container">
@@ -12,31 +20,31 @@ const Gallery = () => {
         <div
           className="box row-2"
           id="box-1"
-          style={{ backgroundImage: "url(Assets/DSC02796.jpg)" }}
+          style={{ backgroundImage: `url(${pic1})` }}
         ></div>
         <div
           className="box col-2"
-          style={{ backgroundImage: "url(Assets/matsoc_iitk_logo.jpeg)" }}
+          style={{ backgroundImage: `url(${pic2})`  }}
         ></div>
         <div
           className="box"
-          style={{ backgroundImage: "url(img/OAT 2.png)" }}
+          style={{ backgroundImage: `url(${pic3})`  }}
         ></div>
         <div
           className="box row-2"
-          style={{ backgroundImage: "url(img/After 2.jpg)" }}
+          style={{ backgroundImage: `url(${pic4})`  }}
         ></div>
         <div
           className="box col-2"
-          style={{ backgroundImage: "url(img/AFter.jpg)" }}
+          style={{ backgroundImage: `url(${pic5})`  }}
         ></div>
         <div
           className="box"
-          style={{ backgroundImage: "url(img/SenateHall.png)" }}
+          style={{ backgroundImage: `url(${pic6})`  }}
         ></div>
         <div
           className="box col-2"
-          style={{ backgroundImage: "url(img/EC room.jpg)" }}
+          style={{ backgroundImage: `url(${pic7})`  }}
         ></div>
       </div>
     </div>

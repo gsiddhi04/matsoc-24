@@ -1,34 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
+.main{
+  background-color: #957c3d;
+}
+
 .origin {
-  box-sizing: border-box;
+  justify-content: center;
   color: rgb(0, 40, 0);
   color-scheme: light;
-  display: block;
+  display: flex;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   font-size: 54px;
   font-variation-settings: normal;
+  margin-left: 50px;
   font-weight: 500;
-  height: 48.6px;
-  line-height: 62.6px;
-  margin-block-end: 8px;
-  margin-block-start: 0px;
-  margin-bottom: 8px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 510px;
-  margin-right: 0px;
-  margin-top: 100px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  scroll-behavior: smooth;
-  text-align: center;
-  text-size-adjust: 100%;
-  unicode-bidi: isolate;
-  width: 664px;
+  padding: 15px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -44,12 +31,12 @@
   font-weight: 400;
   height: 144px;
   line-height: 24px;
-  margin-block-end: 16px;
-  margin-block-start: 0px;
-  margin-bottom: 16px;
+  /* margin-block-end: 16px; */
+  /* margin-block-start: 0px; */
+  /* margin-bottom: 16px; */
   margin-left: 310px;
-  margin-right: 0px;
-  margin-top: 105px;
+  /* margin-right: 0px; */
+  /* margin-top: 105px; */
   scroll-behavior: smooth;
   text-align: start;
   text-size-adjust: 100%;
@@ -69,16 +56,9 @@
   font-size: 54px;
   font-variation-settings: normal;
   font-weight: 500;
-  height: 48.6px;
-  line-height: 62.6px;
-  margin-block-end: 8px;
-  margin-block-start: 0px;
-  margin-bottom: 8px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 510px;
-  margin-right: 0px;
-  margin-top: 100px;
+  /* height: 48.6px; */
+  /* line-height: 62.6px; */
+  margin-left: 450px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -101,14 +81,9 @@
   font-size: 19px;
   font-variation-settings: normal;
   font-weight: 450;
-  height: 144px;
+  height: 360px;
   line-height: 24px;
-  margin-block-end: 16px;
-  margin-block-start: 0px;
-  margin-bottom: 16px;
   margin-left: 310px;
-  margin-right: 0px;
-  margin-top: 105px;
   scroll-behavior: smooth;
   text-align: start;
   text-size-adjust: 100%;
@@ -127,16 +102,9 @@
   font-size: 54px;
   font-variation-settings: normal;
   font-weight: 500;
-  height: 48.6px;
-  line-height: 62.6px;
-  margin-block-end: 8px;
-  margin-block-start: 0px;
-  margin-bottom: 8px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 510px;
-  margin-right: 0px;
-  margin-top: 100px;
+  /* height: 48.6px;
+  line-height: 62.6px; */
+  margin-left: 450px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -159,14 +127,10 @@
   font-size: 19px;
   font-variation-settings: normal;
   font-weight: 520;
-  height: 144px;
+  height: 360px;
   line-height: 24px;
-  margin-block-end: 16px;
-  margin-block-start: 0px;
-  margin-bottom: 16px;
   margin-left: 310px;
   margin-right: 0px;
-  margin-top: 105px;
   scroll-behavior: smooth;
   text-align: start;
   text-size-adjust: 100%;

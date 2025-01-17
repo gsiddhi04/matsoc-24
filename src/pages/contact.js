@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/contact.css';
-import Footer from '../Componenets/footer';
+// import Footer from '../Componenets/footer';
 import ContactCard  from '../Componenets/ContactCard';
 
 
@@ -40,7 +40,7 @@ const Contact = () => {
         image="images/ep.jpg"
       />
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </div>;
 }
 
